@@ -26,7 +26,15 @@ public class MainActivity extends Activity{
 				startActivity(intent);
 			}
 		});
-		
+		acce.setOnClickListener(new View.OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				Intent intent = new Intent(MainActivity.this,accelerom.class);
+				startActivity(intent);
+			}
+		});
 	}
 
 	/*@Override

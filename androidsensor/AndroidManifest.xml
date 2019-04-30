@@ -23,6 +23,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".SensorAll"></activity>
+        <activity android:name=".accelerom"></activity>
     </application>
 
 </manifest>
