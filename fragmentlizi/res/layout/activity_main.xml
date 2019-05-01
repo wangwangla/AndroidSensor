@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.fragmentlizi.MainActivity" >
+
+    <fragment 
+        android:id="@+id/XX"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="com.example.fragmentlizi.WeChatFragment"/>
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="#fff"
+    android:layout_alignParentBottom="true"
+    android:orientation="horizontal">
+    <ImageView 
+        android:id="@+id/im1"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:src="@drawable/ic_launcher"/>
+    <ImageView 
+        android:id="@+id/im2"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:src="@drawable/ic_launcher"/>
+    <ImageView 
+        android:id="@+id/im3"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:src="@drawable/ic_launcher"/>
+    <ImageView 
+        android:id="@+id/im4"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:src="@drawable/ic_launcher"/>
+    
+</LinearLayout>
+</RelativeLayout>
