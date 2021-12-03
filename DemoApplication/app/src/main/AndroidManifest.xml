@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="kw.test.demoapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".service.two.Service2Activity"></activity>
+        <activity android:name=".service.one.ServiceActivity" />
+        <activity android:name=".notification.Main4Activity" />
+        <activity android:name=".shadow.ShadowActivity" />
+        <activity android:name=".flow.FlowButtonActivity" />
+        <activity android:name=".fragment.animation.AnimationActivity" />
+        <activity android:name=".fragment.transdata.Main3Activity" />
+        <activity android:name=".fragment.dymethid.Main2Activity" />
+        <activity android:name=".fragment.staticmethod.DemoFragmentActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
