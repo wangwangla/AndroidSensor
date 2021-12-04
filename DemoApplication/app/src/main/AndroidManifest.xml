@@ -9,7 +9,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".service.two.Service2Activity"></activity>
+        <activity
+            android:name=".back.BackButtonActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activityfor.MainForWardActivity"
+            android:exported="true" />
+        <activity
+            android:name=".savedInstanceState.SaveStateActivity"
+            android:exported="true" />
+        <activity android:name=".service.two.Service2Activity" />
         <activity android:name=".service.one.ServiceActivity" />
         <activity android:name=".notification.Main4Activity" />
         <activity android:name=".shadow.ShadowActivity" />
